@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.post{
+    width: 500px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    list-style: none;
+}
+
+.post img{
+    width: 100%;
+}
+
+.paginator{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.disabled{
+    cursor: not-allowed;
+}
+
+.active{
+    cursor: pointer;
+}
+
+.page{
+    padding: 0 20px 0 20px;
+}
